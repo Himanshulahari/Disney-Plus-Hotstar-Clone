@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Disney+ Hotstar Clone</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img src="images/logo (1) (1).svg" width="120" height="41"  class="brand-logo">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">TV</a></li>
+            <li class="nav-items"><a href="#">Movies</a></li>
+            <li class="nav-items"><a href="#">Sports</a></li>
+            <li class="nav-items"><a href="#">News</a></li>
+            <li class="nav-items"><a href="#"><img src="images/Coming Soon (5).png" width="125" height="" class="coming soon" alt="coming soon"></a></li>
+            <li class="nav-items"><a href="#"><img src="images/kids.svg" class="kids" alt="kids"></a></li>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <button class="sub-btn">subscribe</button>
+            <a href="#" class="login-link">Login</a>
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="slide-content">
+                   <h1 class="movie-title">loki</h1> 
+                   <p class="movie-des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, praesentium tempore! Officiis quam reprehenderit, voluptatum incidunt non perspiciatis corporis, dolorem temporibus commodi necessitatibus at reiciendis excepturi earum quaerat.</p>
+                </div>
+                <img src="images/slider 1.PNG" alt="">
+            </div> -->
+        </div>
+    </div>
+
+    <div class="video-card-container">
+        <div class="video-card">
+            <img src="images/disney.PNG" class="video-card-image" alt="Disney">
+            <video src="videos/disney.mp4" mute loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="images/pixar.PNG" class="video-card-image" alt="">
+            <video src="videos/pixar.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/marvel.PNG" class="video-card-image" alt="">
+            <video src="videos/marvel.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/star-wars.PNG" class="video-card-image" alt="">
+            <video src="videos/star-war.mp4" mute loop class="card-video"></video>
+        </div>
+
+        <div class="video-card">
+            <img src="images/geographic.PNG" class="video-card-image" alt="">
+            <video src="videos/geographic.mp4" mute loop class="card-video"></video>
+        </div>
+    </div>
+
+    <h1 class="title">recommended for you</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/poster 1.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Loki</h2>
+                    <h6 class="des">Loki is the Norse god of mischief and trickery.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 2.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Mulan</h2>
+                    <h6 class="des">Mulan is a fictional Chinese folk heroine.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 3.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">The Falcon And The Winter Soldier</h2>
+                    <h6 class="des">Team up for a global adventure.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/cityofdreams.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">City of Dreams</h2>
+                    <h6 class="des">A political thriller.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/radhakrishna.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Radha Krishna</h2>
+                    <h6 class="des">The epitome of eternal love and sacrifice.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/mahadev.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Mahadev</h2>
+                    <h6 class="des">He is the supreme being and destroyer of evil.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 7.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Pirates Of The Carribean</h2>
+                    <h6 class="des">Their Salazar Revenge.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Popular Shows -->
+
+    <h1 class="title">Popular Shows</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/anupama.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Anupama</h2>
+                    <h6 class="des">Strong-willed Anupama moves to America.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/yehrishta.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">YRKKH</h2>
+                    <h6 class="des">Explores themes of relationships.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/imli.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Imli</h2>
+                    <h6 class="des">A village-belle Imli navigates the hardships of life.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/radhakrishna.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Radha Krishna</h2>
+                    <h6 class="des">The epitome of eternal love and sacrifice.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/mahabharat.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">mahabharat</h2>
+                    <h6 class="des">The mother of all wars.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/doraemon.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">doraemon</h2>
+                    <h6 class="des">Nobita's trusty friend Doraemon is from 22nd century.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 9.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Raya and the last dragon</h2>
+                    <h6 class="des">Raya, a fallen princess.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/pandya.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Pandya Store</h2>
+                    <h6 class="des">Show is about bonding of a joint family.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/mahadev.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Mahadev</h2>
+                    <h6 class="des">He is the supreme being and destroyer of evil.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 8.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Soul</h2>
+                    <h6 class="des">Joe is transported to The Great Before.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- New Releases -->
+    <h1 class="title">New Releases</h1>
+    <div class="movies-list">
+        <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="images/hostages.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Hostages</h2>
+                    <h6 class="des">A conspiracy unfolds.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/justice.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Criminal Justice</h2>
+                    <h6 class="des">Aditya wakes up covered in blood.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 2.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Mulan</h2>
+                    <h6 class="des">Mulan is a fictional Chinese folk heroine.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 10.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Luca</h2>
+                    <h6 class="des">One young boy experiencing an unforgettable summer.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/dilbechara.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Dil Bechara</h2>
+                    <h6 class="des">Kizie and Manny brought together by a tragic twist.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 8.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Soul</h2>
+                    <h6 class="des">Joe is transported to The Great Before.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/poster 1.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">Loki</h2>
+                    <h6 class="des">Loki is the Norse god of mischief and trickery.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="images/cityofdreams.jpg" alt="" class="card-img">
+                <div class="card-body">
+                    <h2 class="name">City of Dreams</h2>
+                    <h6 class="des">A political thriller.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
